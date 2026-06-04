@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>ЗАГЛАВИЕ — MyEduLink</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<header id="site-header">
+  <nav class="nav-inner">
+
+    <!-- Logo -->
+    <a href="index.html" class="logo">
+      <img src="logo.png" alt="MyEduLink" class="logo-img"/>
+    </a>
+
+    <!-- Desktop nav links -->
+    <div class="nav-links">
+
+      <a href="index.html" class="nav-link">Начало</a>
+
+      <!-- Блог -->
+      <div class="nav-item" data-dd="blog">
+        <button class="nav-trigger">Блог
+          <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="dd-wrap" id="dd-blog">
+          <div class="dd-panel">
+            <div class="dd-grid dd-grid-1">
+              <a href="https://myedulink.eu/blog" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><path d="M2 22l10-10"/><path d="M16 8c0 0 2 2 2 5s-2 5-8 8c-6-3-8-8-8-8 0-6 8-13 14-13z"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">Последни публикации</span><span class="dd-desc">Новини и актуални материали</span></div>
+              </a>
+              <a href="https://myedulink.eu/blog" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><polyline points="21 8 21 21 3 21 3 8"/><rect x="1" y="3" width="22" height="5"/><line x1="10" y1="12" x2="14" y2="12"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">Архив</span><span class="dd-desc">Всички публикации</span></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- APP -->
+      <div class="nav-item" data-dd="app">
+        <button class="nav-trigger">APP
+          <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="dd-wrap" id="dd-app">
+          <div class="dd-panel">
+            <div class="dd-grid dd-grid-2">
+              <a href="https://myedulink.eu/apps/weather" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/><line x1="4.22" y1="4.22" x2="7.05" y2="7.05"/><line x1="16.95" y1="16.95" x2="19.78" y2="19.78"/><line x1="4.22" y1="19.78" x2="7.05" y2="16.95"/><line x1="16.95" y1="7.05" x2="19.78" y2="4.22"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">Прогноза за времето</span><span class="dd-desc">Текущо и до 6-дневна прогноза</span></div>
+              </a>
+              <a href="https://myedulink.eu/apps/wheel" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.5"/><line x1="12" y1="3" x2="12" y2="9.5"/><line x1="12" y1="14.5" x2="12" y2="21"/><line x1="3" y1="12" x2="9.5" y2="12"/><line x1="14.5" y1="12" x2="21" y2="12"/><line x1="5.64" y1="5.64" x2="10.11" y2="10.11"/><line x1="13.89" y1="13.89" x2="18.36" y2="18.36"/><line x1="18.36" y1="5.64" x2="13.89" y2="10.11"/><line x1="10.11" y1="13.89" x2="5.64" y2="18.36"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">Wheel of Fortune</span><span class="dd-desc">Завъртете колелото на съдбата</span></div>
+              </a>
+              <a href="https://myedulink.eu/apps/barcode" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="6" height="6" rx="0.5"/><rect x="15" y="3" width="6" height="6" rx="0.5"/><rect x="3" y="15" width="6" height="6" rx="0.5"/><rect x="5" y="5" width="2" height="2"/><rect x="17" y="5" width="2" height="2"/><rect x="5" y="17" width="2" height="2"/><path d="M15 15h2v2h-2zm4 0h2v2h-2zm-4 4h2v2h-2zm2-2h2v2h-2z"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">QR Генератор</span><span class="dd-desc">Генерирай персонализирани QR кодове</span></div>
+              </a>
+              <a href="https://myedulink.eu/apps/converter" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h10M4 17h7"/><path d="m16 14 3 3-3 3"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">Конвертор на бройни системи</span><span class="dd-desc">Преобразувай с видими стъпки</span></div>
+              </a>
+              <a href="https://myedulink.eu/apps/binary" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">Двоична Аритметика</span><span class="dd-desc">Събиране, изваждане, умножение, деление</span></div>
+              </a>
+              <a href="https://myedulink.eu/apps/flowchart" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="6" height="4" rx="1"/><rect x="15" y="9" width="6" height="4" rx="1"/><rect x="3" y="17" width="6" height="4" rx="1"/><path d="M9 5h3a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H9"/><line x1="6" y1="7" x2="6" y2="17"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">Блок-Диаграма</span><span class="dd-desc">Създавай и изпълнявай алгоритми</span></div>
+              </a>
+              <a href="https://myedulink.eu/apps/countdown" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">Обратен Брояч</span><span class="dd-desc">Таймер за класна стая</span></div>
+              </a>
+              <a href="https://myedulink.eu/apps/whiteboard" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">Whiteboard</span><span class="dd-desc">Дигитална дъска за рисуване</span></div>
+              </a>
+              <a href="https://myedulink.eu/apps/grade-converter" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">Конвертор на оценки</span><span class="dd-desc">Изчислявай оценка по точки</span></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ДЗИ (mega menu) -->
+      <div class="nav-item" data-dd="dzi">
+        <button class="nav-trigger">ДЗИ
+          <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="dd-wrap mega" id="dd-dzi">
+          <div class="dd-panel dd-mega">
+            <div class="dd-mega-main">
+              <p class="dd-mega-label">По предмет</p>
+              <div class="dd-mega-grid">
+                <a href="#" class="dd-subject">Информатика</a>
+                <a href="#" class="dd-subject">ИТ</a>
+              </div>
+              <hr class="dd-mega-divider"/>
+              <div class="dd-mega-grid">
+                <a href="#" class="dd-subject">График на изпитите</a>
+                <a href="#" class="dd-subject">Примерни тестове</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Портфолио -->
+      <div class="nav-item" data-dd="port">
+        <button class="nav-trigger">Портфолио
+          <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="dd-wrap" id="dd-port">
+          <div class="dd-panel">
+            <div class="dd-grid dd-grid-1">
+              <a href="#" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">Проекти</span><span class="dd-desc">Завършени проекти</span></div>
+              </a>
+              <a href="#" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">Ученически работи</span><span class="dd-desc">Работи и разработки на ученици</span></div>
+              </a>
+              <a href="#" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">Награди</span><span class="dd-desc">Постижения и отличия</span></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Полезни връзки -->
+      <div class="nav-item" data-dd="links">
+        <button class="nav-trigger">Полезни връзки
+          <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="dd-wrap" id="dd-links">
+          <div class="dd-panel">
+            <div class="dd-grid dd-grid-2">
+              <a href="https://www.mon.bg/" target="_blank" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="1"/><path d="M9 22v-4h6v4"/><line x1="9" y1="7" x2="9.01" y2="7" stroke-width="3"/><line x1="15" y1="7" x2="15.01" y2="7" stroke-width="3"/><line x1="9" y1="12" x2="9.01" y2="12" stroke-width="3"/><line x1="15" y1="12" x2="15.01" y2="12" stroke-width="3"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">МОН</span><span class="dd-desc">Министерство на образованието</span></div>
+              </a>
+              <a href="https://www.ruo-yambol.bg/news" target="_blank" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">РУО</span><span class="dd-desc">Регионално управление</span></div>
+              </a>
+              <a href="#" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">НВО ресурси</span><span class="dd-desc">Материали и тестове за НВО</span></div>
+              </a>
+              <a href="#" class="dd-item">
+                <div class="dd-item-icon"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+                <div class="dd-item-text"><span class="dd-title">Образователни платформи</span><span class="dd-desc">Microsoft Teams, Moodle и др.</span></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="contact.html" class="nav-link">Контакти</a>
+
+    </div><!-- /nav-links -->
+
+    <!-- Desktop actions -->
+    <div class="nav-actions">
+      <button class="theme-btn" id="theme-btn" title="Смени тема">
+        <svg id="icon-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg id="icon-sun"  viewBox="0 0 24 24" style="display:none">
+          <circle cx="12" cy="12" r="4"/>
+          <line x1="12" y1="2"  x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/>
+          <line x1="2"  y1="12" x2="6"  y2="12"/><line x1="18" y1="12" x2="22" y2="12"/>
+          <line x1="4.22"  y1="4.22"  x2="7.05"  y2="7.05"/>
+          <line x1="16.95" y1="16.95" x2="19.78" y2="19.78"/>
+          <line x1="4.22"  y1="19.78" x2="7.05"  y2="16.95"/>
+          <line x1="16.95" y1="7.05"  x2="19.78" y2="4.22"/>
+        </svg>
+      </button>
+      <a href="https://myedulink.eu/?view=guest" class="btn-ghost">Гост</a>
+      <a href="https://myedulink.eu/?view=login" class="btn-primary">Вход</a>
+    </div>
+
+    <!-- Mobile hamburger -->
+    <button class="mobile-toggle" id="mobile-btn" aria-label="Меню">
+      <svg id="icon-menu" viewBox="0 0 24 24">
+        <line x1="3" y1="6"  x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+      <svg id="icon-x" viewBox="0 0 24 24" style="display:none">
+        <line x1="18" y1="6"  x2="6"  y2="18"/>
+        <line x1="6"  y1="6"  x2="18" y2="18"/>
+      </svg>
+    </button>
+
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <a href="index.html" class="mobile-link">Начало</a>
+    <a href="https://myedulink.eu/blog" class="mobile-link">Блог</a>
+    <a href="https://myedulink.eu/apps" class="mobile-link">APP</a>
+    <a href="#" class="mobile-link">ДЗИ <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></a>
+    <a href="#" class="mobile-link">Портфолио <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></a>
+    <a href="#" class="mobile-link">Полезни връзки <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></a>
+    <a href="contact.html" class="mobile-link">Контакти</a>
+    <div class="mobile-actions">
+      <a href="https://myedulink.eu/?view=guest" class="btn-ghost">Гост</a>
+      <a href="https://myedulink.eu/?view=login" class="btn-primary">Вход</a>
+    </div>
+  </div>
+
+</header>
+
+
+<!-- ═══════════════════════════════════════════
+     СЪДЪРЖАНИЕ НА СТРАНИЦАТА — редактирай тук
+     ═══════════════════════════════════════════ -->
+<main style="max-width:64rem; margin:0 auto; padding:3rem 1rem;">
+
+  <h1>Заглавие на страницата</h1>
+  <p>Съдържание...</p>
+
+</main>
+<!-- ═══════════════════════════════════════════ -->
+
+
+<script src="nav.js"></script>
+</body>
+</html>
