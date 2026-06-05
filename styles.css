@@ -585,11 +585,17 @@ a { text-decoration: none; color: inherit; }
   letter-spacing: .01em;
   line-height: 1.6;
   text-align: justify;
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-stats {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-stat {
   flex: 1;
@@ -597,16 +603,16 @@ a { text-decoration: none; color: inherit; }
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: .4rem;
-  padding: 1.25rem 1rem;
+  gap: .3rem;
+  padding: .75rem 1rem;
   border: 1px solid var(--border);
   border-radius: .75rem;
   background: var(--accent-bg);
   text-align: center;
 }
 .hero-stat svg {
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 1.4rem;
+  height: 1.4rem;
   stroke: #6366f1;
   fill: none;
   stroke-width: 1.75;
@@ -614,13 +620,14 @@ a { text-decoration: none; color: inherit; }
   stroke-linejoin: round;
 }
 .hero-stat-num {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--fg);
 }
 .hero-stat-label {
-  font-size: .8rem;
+  font-size: .75rem;
   color: var(--muted-fg);
+  white-space: nowrap;
 }
 .hero-welcome {
   font-size: 1.1rem;
@@ -631,12 +638,15 @@ a { text-decoration: none; color: inherit; }
 .hero-quote {
   font-style: italic;
   font-weight: 500;
-  color: var(--fg);
+  color: #6366f1;
   text-align: left !important;
   border-left: 3px solid #6366f1;
   background: var(--accent-bg);
   padding: .7rem 1.1rem;
   border-radius: 0 .4rem .4rem 0;
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-author {
   font-size: .95rem;
