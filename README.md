@@ -1,6 +1,6 @@
 # MyEduLink — Публичен сайт
 
-Статичен уебсайт за образователния портал **[myedulink.eu](https://myedulink.eu)**, разработен от **инж. Борислав Попов** — учител по Информатика и Информационни технологии.
+Статичен уебсайт за образователния портал **[myedulink.eu](https://myedulink.eu)**, разработен от **инж. Борислав Попов** — учител по Информатика и Информационни технологии в ПМГ „Атанас Радев" — гр. Ямбол.
 
 ## За сайта
 
@@ -25,6 +25,7 @@
 - **Glassmorphism хедър** — полупрозрачен с blur ефект
 - **Dark / Light режим** — запазва се в localStorage
 - **Responsive** — адаптивен за мобилни устройства
+- **Footer** — тънка лента с авторско право и бързи линкове
 - **Бързи линкове** към платформата myedulink.eu
 
 ## Технологии
@@ -37,11 +38,15 @@
 |--------|-----|
 | Блог | [myedulink.eu/blog](https://myedulink.eu/blog) |
 | Приложения | [myedulink.eu/apps](https://myedulink.eu/apps) |
+| НОИТ | [noit.myedulink.eu](https://noit.myedulink.eu/) |
 | МОН | [mon.bg](https://www.mon.bg/) |
 | РУО Ямбол | [ruo-yambol.bg](https://www.ruo-yambol.bg/news) |
+| Shkolo | [shkolo.bg](https://www.shkolo.bg/) |
 
 ## Контакти
 
-- **инж. Борислав Попов** — учител по ИТ и Информатика
+- **инж. Борислав Попов** — учител по Информатика и ИТ
+- ПМГ „Атанас Радев" — гр. Ямбол · [pmg.yambol.bg](https://pmg.yambol.bg)
 - borislav.ru.popov@edu.mon.bg
 - pmg.homework@gmail.com *(за домашна работа)*
+- 0888 885 445 *(Viber)*

@@ -32,6 +32,13 @@ body {
   background: var(--bg);
   color: var(--fg);
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body > main,
+body > section {
+  flex: 1;
 }
 a { text-decoration: none; color: inherit; }
 
@@ -496,6 +503,7 @@ a { text-decoration: none; color: inherit; }
   position: relative;
   z-index: 1;
   max-width: 42rem;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
@@ -629,7 +637,8 @@ a { text-decoration: none; color: inherit; }
 
 /* ── Contact page ────────────────────────────────────────────────────────── */
 .contact-card {
-  max-width: 36rem;
+  max-width: 52rem;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -678,6 +687,48 @@ a { text-decoration: none; color: inherit; }
   color: var(--muted-fg);
   margin-top: .1rem;
 }
+.contact-motto {
+  font-style: italic;
+  font-size: .95rem;
+  color: var(--muted-fg);
+  border-left: 3px solid #6366f1;
+  padding: .6rem 1rem;
+  background: var(--accent-bg);
+  border-radius: 0 .4rem .4rem 0;
+  line-height: 1.6;
+}
+.contact-school {
+  font-size: .9rem;
+  color: #6366f1;
+  font-weight: 500;
+}
+
+/* ── Footer ──────────────────────────────────────────────────────────────── */
+#site-footer {
+  border-top: 1px solid var(--border);
+  margin-top: 4rem;
+}
+.footer-bar {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-size: .8rem;
+  color: var(--muted-fg);
+}
+.footer-bar-links {
+  display: flex;
+  gap: 1.25rem;
+}
+.footer-bar-links a {
+  color: var(--muted-fg);
+  transition: color .15s;
+}
+.footer-bar-links a:hover { color: var(--fg); }
 
 /* ── Hero animations ─────────────────────────────────────────────────────── */
 @keyframes fadeSlideUp {
