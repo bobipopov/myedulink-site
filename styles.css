@@ -502,12 +502,10 @@ a { text-decoration: none; color: inherit; }
 .hero-content {
   position: relative;
   z-index: 1;
-  max-width: 42rem;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
 }
 .hero-badge {
   display: inline-flex;
@@ -558,12 +556,30 @@ a { text-decoration: none; color: inherit; }
   color: var(--muted-fg);
   letter-spacing: .01em;
   line-height: 1.6;
+  text-align: justify;
+}
+.hero-welcome {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--fg);
+  text-align: left !important;
+}
+.hero-quote {
+  font-style: italic;
+  font-weight: 500;
+  color: var(--fg);
+  text-align: left !important;
+  border-left: 3px solid #6366f1;
+  background: var(--accent-bg);
+  padding: .7rem 1.1rem;
+  border-radius: 0 .4rem .4rem 0;
 }
 .hero-author {
   font-size: .95rem;
   font-weight: 500;
   color: var(--fg);
   padding-top: .25rem;
+  text-align: left !important;
 }
 .hero-ctas {
   display: flex;
